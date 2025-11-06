@@ -1,3 +1,5 @@
+
+  <div align="center">
   <h1>NoTap SDK</h1>
   <p><strong>Authentication Reimagined</strong></p>
 
