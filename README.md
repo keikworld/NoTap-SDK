@@ -1,8 +1,11 @@
-# NoTap SDK
+  <h1>NoTap SDK</h1>
+  <p><strong>Authentication Reimagined</strong></p>
 
-**Authentication Reimagined**
-
-NoTap is a next-generation authentication platform that eliminates the need for physical devices, passwords, or biometric hardware. Users authenticate using a combination of memorable factors that work on any device.
+  <p>
+    Device-free payment authentication with zero-knowledge proofs and multi-factor verification.<br/>
+    Combines 15 creative authentication factors across 5 categories for secure, privacy-preserving payments.
+  </p>
+</div>
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Web-lightgrey.svg)](https://github.com/keikworld/NoTap)
