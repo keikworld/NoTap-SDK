@@ -34,8 +34,37 @@
 
 ### 💳 Payment Integration
 - **14 Payment Gateways** - Stripe, Adyen, PayPal, Square, and more
-- **Blockchain Support** - Solana, Ethereum (coming soon)
+- **Parallel PSP Integration** - 28% faster checkout (500ms vs 700ms)
+- **Blockchain Support** - Solana (USDC, SOL, USDT), Ethereum (coming soon)
 - **One-Click Checkout** - Authenticate and pay in seconds
+
+---
+
+## 🆕 What's New in v1.1.0
+
+### ⚡ Parallel PSP Integration (28% Faster Checkout)
+Payment gateway sessions are now created **in parallel** with authentication:
+- **Before:** Auth (200ms) → PSP Session (500ms) = 700ms total
+- **After:** Auth + PSP run together = 500ms total ⚡
+- **Supported PSPs:** Stripe, Tilopay, Adyen, MercadoPago, Square
+- **Non-blocking:** Authentication always succeeds (even if PSP fails)
+
+### ₿ Device-Free Crypto Payments
+Pay with blockchain currencies **without your phone:**
+- **Supported:** USDC, SOL, USDT on Solana blockchain
+- **Security:** Daily HKDF key rotation (24-hour attack window)
+- **Spending limits:** Configurable daily/transaction limits
+- **No phone needed:** Pre-authorize at enrollment, pay hands-free
+- **Instant settlement:** ~500ms Solana confirmation
+
+### 🔄 Daily Key Rotation (Phone Theft Protection)
+Your authentication credentials automatically expire and renew **every 24 hours:**
+- ✅ **24-hour attack window** (daily rotation, not 30 days)
+- ✅ **Forward secrecy** (past keys can't derive future keys)
+- ✅ **Zero server knowledge** (master keys never leave device)
+- ✅ **Hardware-protected** (device secure enclave storage)
+
+Enterprise-grade key rotation similar to Kerberos tickets, OAuth refresh tokens, and TLS session keys.
 
 ---
 
@@ -317,6 +346,38 @@ _* iOS and Web SDKs coming soon_
 ## 📄 License
 
 Licensed under the Apache License 2.0 - see [LICENSE](LICENSE) file for details.
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Completed (v1.1.0 - December 2025)
+- [x] Android SDK production release
+- [x] Web SDK production release
+- [x] Backend API production release
+- [x] Security audit (26 vulnerabilities fixed)
+- [x] Parallel PSP Integration (28% faster checkout)
+- [x] Device-free crypto payments (USDC, SOL, USDT)
+- [x] Daily HKDF key rotation for security
+- [x] Multi-chain name service (ENS, Unstoppable, BASE, SNS)
+- [x] Developer Portal (self-service integration)
+- [x] Management Portal (user account management)
+- [x] Bugster E2E testing integration
+
+### 🚧 In Progress (Q1 2026)
+- [ ] iOS SDK release
+- [ ] ZK-SNARK trusted setup ceremony
+- [ ] SOC 2 Type II certification
+- [ ] Tilopay partnership (LATAM)
+- [ ] Shopify/WooCommerce plugins
+- [ ] Merchant pilots (gyms, cafes, airports)
+
+### 📅 Planned (Q2-Q4 2026)
+- [ ] Biometric liveness detection
+- [ ] Multi-device synchronization
+- [ ] Ethereum/MetaMask integration
+- [ ] Desktop SDK (Compose Multiplatform)
+- [ ] Hardware security module (HSM) integration
 
 ---
 

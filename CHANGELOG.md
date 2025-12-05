@@ -118,9 +118,80 @@ First stable release of NoTap SDK.
 
 ---
 
+## [1.1.0] - 2025-12-05
+
+### 🎉 Major Performance & Security Update
+
+### Added
+
+#### ⚡ Parallel PSP Integration
+- ✅ **28% Faster Checkout** - PSP session creation runs parallel with authentication
+  - Sequential: 700ms (200ms auth + 500ms PSP)
+  - Parallel: 500ms (auth + PSP together)
+- ✅ **Non-Blocking Architecture** - Authentication succeeds even if PSP fails
+- ✅ **Supported PSPs** - Stripe, Tilopay, Adyen, MercadoPago, Square
+- ✅ **Backward Compatible** - Optional feature, no code changes required
+
+#### ₿ Device-Free Crypto Payments
+- ✅ **Blockchain Currency Support** - USDC, SOL, USDT on Solana
+- ✅ **No Phone Required** - Pre-authorize at enrollment, pay hands-free
+- ✅ **Daily HKDF Key Rotation** - 24-hour attack window (enhanced security)
+- ✅ **Spending Limits** - Configurable daily/transaction limits
+- ✅ **Toggleable Gas Fees** - NoTap pays or user pays (~$0.00025)
+- ✅ **Instant Settlement** - ~500ms Solana blockchain confirmation
+- ✅ **Dual Architecture** - Relayer (default) + Session Keys (opt-in)
+
+#### 🔄 Daily Key Rotation (Phone Theft Protection)
+- ✅ **Automatic 24-Hour Rotation** - Credentials expire and renew daily
+- ✅ **Forward Secrecy** - Past keys cannot derive future keys
+- ✅ **HKDF-Based** - Industry-standard key derivation (RFC 5869)
+- ✅ **Hardware-Protected** - Master keys stored in device secure enclave
+- ✅ **Zero User Action** - Fully automatic background process
+
+#### 🌐 Multi-Chain Name Service
+- ✅ **Ethereum Name Service (.eth)** - ENS integration
+- ✅ **Unstoppable Domains (.crypto, .nft, .wallet, etc.)** - 13 TLDs supported
+- ✅ **BASE Name Service (.base.eth)** - Layer 2 Ethereum names
+- ✅ **Solana Name Service (.sol, .notap.sol)** - Free subdomains
+
+#### 🧑‍💻 Developer Portal
+- ✅ **API Key Management** - Generate keys instantly (sandbox, staging, production)
+- ✅ **Webhook Configuration** - Event subscriptions with delivery monitoring
+- ✅ **Analytics Dashboard** - Usage statistics, error tracking, performance metrics
+- ✅ **Sandbox Testing** - Test mode with fake payments
+- ✅ **Security Features** - JWT auth, IP whitelisting, rate limiting, audit logs
+
+#### 👤 Management Portal
+- ✅ **Account Overview** - NoTap ID display, enrollment date, statistics
+- ✅ **Factor Management** - View, remove, update, add authentication factors
+- ✅ **Device Management** - View devices, revoke compromised devices
+- ✅ **Security Settings** - Password change, 2FA, security log
+- ✅ **Blockchain Name Management** - Link/unlink ENS, Unstoppable, BASE names
+- ✅ **GDPR Compliance** - Data export, account deletion, privacy settings
+
+#### 🧪 Testing & Quality
+- ✅ **Bugster E2E Testing** - AI-powered browser-based testing
+- ✅ **6 Backend Test Specs** - Enrollment, verification, wallet, ZK-SNARK, GDPR, audit
+- ✅ **10 Web UI Test Specs** - All factor canvases tested
+- ✅ **GitHub Actions Integration** - Automated testing on every PR
+
+### Changed
+
+- 🔄 **README** - Updated with all new features and current roadmap
+- 🔄 **Documentation** - Expanded developer guides and quickstarts
+- 🔄 **Platform Support** - Web SDK now production-ready
+
+### Security
+
+- 🔐 **Daily HKDF Rotation** - Reduced attack window from 30 days to 24 hours
+- 🔐 **Forward Secrecy** - Enhanced cryptographic key management
+- 🔐 **Hardware-Backed Storage** - All master keys in device secure enclave
+
+---
+
 ## [Unreleased]
 
-### Planned for v1.1.0
+### Planned for v1.2.0
 
 - 📅 **Factor Update API** - Update individual factors without re-enrollment
 - 📅 **Offline Verification Mode** - Verify without network connectivity
