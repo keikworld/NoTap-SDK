@@ -235,7 +235,7 @@ class MyApplication : Application() {
 Include via CDN:
 
 ```html
-<script src="https://cdn.notap.com/sdk/1.0.0/notap.min.js"></script>
+<script src="https://cdn.notap.io/sdk/1.0.0/notap.min.js"></script>
 
 <script>
   NoTap.initialize({
@@ -627,8 +627,14 @@ _* iOS and Web SDKs coming soon_
 
 ## 🤝 Support
 
-- 📧 **Email**: support@notap.com
-- 📖 **Documentation**: [https://docs.notap.com](https://docs.notap.com)
+- 🌐 **Website**: [https://notap.io](https://notap.io)
+- 📧 **General Inquiries**: hello@notap.io
+- 🛟 **Technical Support**: support@notap.io
+- ⚖️ **Appeals**: appeals@notap.io
+- 📜 **Code of Conduct**: conduct@notap.io
+- 🆔 **Solana Name Service**: notap.sol
+- 🐦 **X/Twitter**: [@NoTapAuth](https://x.com/NoTapAuth)
+- 📖 **Documentation**: [https://docs.notap.io](https://docs.notap.io)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/keikworld/NoTap/discussions)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/keikworld/NoTap/issues)
 
@@ -676,7 +682,7 @@ Licensed under the Apache License 2.0 - see [LICENSE](LICENSE) file for details.
 
 Ready to integrate NoTap into your app?
 
-1. **[Sign up for API keys](https://notap.com/signup)** (when available)
+1. **[Sign up for API keys](https://notap.io/signup)** (when available)
 2. **[Read the Getting Started guide](docs/getting-started.md)**
 3. **[Check out example apps](examples/)**
 4. **[Join our community](https://github.com/keikworld/NoTap/discussions)**
