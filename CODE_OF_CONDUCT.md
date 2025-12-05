@@ -66,7 +66,7 @@ This Code of Conduct also applies when an individual is officially representing 
 
 If you experience or witness unacceptable behavior, please report it to:
 
-**📧 Email:** conduct@notap.com
+**📧 Email:** conduct@notap.io
 
 **What to Include:**
 - Your contact information
@@ -122,7 +122,7 @@ Community leaders will follow these guidelines in determining consequences:
 
 If you believe you have been unfairly sanctioned, you may appeal by:
 
-1. Sending an email to appeals@notap.com within 14 days
+1. Sending an email to appeals@notap.io within 14 days
 2. Include your case number (provided in enforcement decision)
 3. Explain why you believe the decision was unfair
 4. Provide any additional context or evidence
@@ -143,7 +143,7 @@ Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcem
 
 For questions about this Code of Conduct, contact:
 
-- **Email:** conduct@notap.com
+- **Email:** conduct@notap.io
 - **Discussions:** [GitHub Discussions](https://github.com/keikworld/NoTap-SDK/discussions)
 
 ---
