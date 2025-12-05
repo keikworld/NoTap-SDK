@@ -16,6 +16,47 @@
 
 ---
 
+> **🚧 Coming Soon:** NoTap SDK is currently in development. This repository contains preview documentation and examples.
+> **Want early access?** Join the waitlist at [notap.io](https://notap.io) or email [hello@notap.io](mailto:hello@notap.io)
+
+---
+
+## 📊 SDK Readiness Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| **📖 Documentation** | ✅ Complete | API reference, guides, examples |
+| **🎨 Architecture Design** | ✅ Complete | Security model, factor system, key rotation |
+| **📦 Android SDK** | 🚧 In Development | Core SDK implementation needed |
+| **📦 iOS SDK** | 📋 Planned | Coming after Android release |
+| **📦 Web SDK** | 🚧 In Development | Browser-based authentication |
+| **🔐 Backend API** | 🚧 In Development | Authentication & verification endpoints |
+| **💾 Database Schema** | 🚧 In Development | User data, factors, sessions |
+| **☁️ Infrastructure** | 📋 Planned | AWS/GCP deployment, Redis, PostgreSQL |
+| **🔑 API Keys & Portal** | 📋 Planned | Developer portal for API key management |
+| **💳 Payment Gateway Integration** | 📋 Planned | Stripe, Adyen, Tilopay, etc. |
+| **₿ Blockchain Integration** | 📋 Planned | Solana USDC/SOL/USDT support |
+| **🧪 Testing Environment** | 📋 Planned | Sandbox for developer testing |
+| **🛡️ Security Audit** | 📋 Planned | Third-party security review |
+| **📜 Legal & Compliance** | 📋 Planned | Terms of Service, Privacy Policy, GDPR |
+
+**Legend:** ✅ Complete | 🚧 In Development | 📋 Planned | ❌ Blocked
+
+### What You Can Do Now:
+- ✅ **Review documentation** - Understand how NoTap works
+- ✅ **Study API reference** - Plan your integration
+- ✅ **Check examples** - See implementation patterns
+- ✅ **Join discussions** - Ask questions, share ideas
+- ✅ **Request early access** - Email partnership@notap.io
+
+### What's Coming Next:
+1. **Q1 2026** - Android SDK private beta
+2. **Q2 2026** - Backend API deployment
+3. **Q3 2026** - Developer portal launch
+4. **Q4 2026** - Public SDK release
+
+---
+
 ## 🚨 The Problem
 
 **You need to make a purchase, but:**
