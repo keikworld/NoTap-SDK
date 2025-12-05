@@ -1,0 +1,72 @@
+name: ❓ Question
+description: Ask a question about NoTap SDK (Consider using Discussions instead)
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **👋 Hi there!** For general questions, we recommend using [GitHub Discussions](https://github.com/keikworld/NoTap/discussions) instead of issues.
+
+        Discussions are better for:
+        - General questions about integration
+        - How-to questions
+        - Feature discussions
+        - Sharing ideas
+
+        If you have a specific bug or feature request, please use the appropriate template instead.
+
+        If you'd still like to file an issue for your question, please continue below.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: How do I...?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What is your question about?
+      options:
+        - Getting Started
+        - Integration
+        - Authentication Factors
+        - Payment Integration
+        - Security
+        - API Usage
+        - Best Practices
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Provide any additional context or what you've already tried
+      placeholder: I've already tried...
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Relevant Code (if applicable)
+      description: Share any relevant code snippets
+      render: kotlin
+      placeholder: |
+        // Your code here
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have checked the [documentation](https://docs.notap.io)
+          required: true
+        - label: I have searched existing issues and discussions
+          required: true

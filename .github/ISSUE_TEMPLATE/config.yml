@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Documentation
+    url: https://docs.notap.io
+    about: Check our documentation for guides and API reference
+  - name: 💬 GitHub Discussions
+    url: https://github.com/keikworld/NoTap/discussions
+    about: Ask questions and discuss with the community
+  - name: 📧 Email Support
+    url: mailto:support@notap.io
+    about: Contact us directly for support inquiries
+  - name: 🤝 Partnerships
+    url: mailto:partnership@notap.io
+    about: Interested in partnering with NoTap?
