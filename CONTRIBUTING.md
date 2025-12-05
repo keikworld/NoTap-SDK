@@ -352,8 +352,8 @@ When adding features, update relevant documentation:
 ## Questions?
 
 - **General Questions:** [GitHub Discussions](https://github.com/keikworld/NoTap-SDK/discussions)
-- **Security Issues:** security@notap.com (private disclosure)
-- **Contributor Help:** contributors@notap.com
+- **Security Issues:** security@notap.io (private disclosure)
+- **Contributor Help:** contributors@notap.io
 
 ---
 
