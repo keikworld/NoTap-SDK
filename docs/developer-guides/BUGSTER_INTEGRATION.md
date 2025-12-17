@@ -46,12 +46,17 @@ This guide documents the integration of **Bugster** - an AI-powered E2E testing 
 ### Install Bugster CLI
 
 ```bash
-# Install globally
-npm install -g bugster-cli
+# Install via official script (Linux/macOS)
+curl -sSL https://github.com/Bugsterapp/bugster-cli/releases/latest/download/install.sh | bash -s -- -y
+
+# Add to PATH (if not automatic)
+export PATH="$HOME/.bugster/bin:$PATH"
 
 # Verify installation
 bugster --version
 ```
+
+> **Note:** Bugster CLI is NOT on npm. It must be installed via the official GitHub releases script.
 
 ---
 
